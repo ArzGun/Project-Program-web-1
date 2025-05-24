@@ -1,0 +1,389 @@
+  <!-- Arif Gunawan | CV (NIM 240401010332) -->
+
+
+
+<!DOCTYPE html>                                                                              <!-- tujuannya untuk mengasih tau browser versi html yang kita gunakan -->
+<html lang="en">                                                                             <!-- properti untuk memberi tau bahasa yang akan digunakan pada website-->
+    <head>
+        <meta charset="UTF-8"/>                                                              <!-- standarisasi modern untuk meta char set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>                               <!-- Untuk internet explorer agar website di render dengan mode tertinggi  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>              <!-- untuk menyesuaikan tampilan website agar tidak zoom out saat dibuka di HP  -->
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+        <title>Arif Gunawan - Boiler Operation</title>
+        <link rel="stylesheet" href="./link/style.css"/>
+        <link rel="stylesheet" href="./link/responsive.css"/>                                     <!-- Untuk link file css kita -->
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="main-container">                                                    <!-- Untuk membuat jarak pada bagian kanan dan kiri pada website -->
+                <div class="nav">
+                    <div class="logo">
+                        <img src="./image/logo.png"alt="ArzGun"/>
+                        <a href="/"><i><u></u></i></a>                                               <!-- untuk membuat logo -->
+                    </div>
+<!-- Membuat Navigasi menu -->
+                    <nav>                                                                   <!-- Untuk membuat navigasi menu -->
+                        <ul>
+                            <li><a href="#experience">Experience</a> </li>
+                            <li><a href="#portofolio">Portofolio</a> </li>
+                            <li><a href="#skills">Skills</a> </li>
+                            <li><a href="#Gallery">Gallery</a> </li>
+                            <li><a href="#contact">Contact</a> </li>
+                            <li><a href="/resume.pdf" target="_blank">                  <!-- Blank agar saat di klik akan membuka tab baru-->
+                                <button class="btn">Resume</button></a> </li>
+                        </ul>
+                    </nav>
+
+                    <div class="burger">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="line-3"></div>
+                    </div>
+                </div>
+                <section id="arif">
+                    <div class="arif-left">
+                        <h3 class="pre-title">--About Me--</h3>
+                        <h1 class="arif-name">Arif Gunawan</h1>
+                        <h3 class="arif-nim">NIM : 240401010332</h3>
+                        <h3 class="arif-kelas">Kelas : IF-202</h3>
+                        <h3 class="arif-matkul">Matkul : Pemprograman Web I</h3>
+                    </div>
+                    <div class="arif">
+                        <img src="./image/FOTO.jpg" alt="Cover"/>          <!-- Untuk memasukan image ( image sumber sapiens.ui8.net) -->
+                    </div>
+                </section>
+            </div>
+
+        </header>
+        <!-- Akhir Header -->
+
+         <!-- Menu Experience -->
+    <section# id="experience">                              <!-- membuat isi dari menu Experience-->
+        <div class="experience main-container">
+            <h3 class="pre-title"><i><u>Experience</u></i></h3>
+            <h1 class="section-title experience-title">Experienced In</h1>
+
+            <div class="grid-3">                            <!-- Untuk memuat point" yang akan kita masukkan dalam menu Experience-->
+                <!-- Point 1 -->
+                <div class="experience">
+                    <div class="experience-icon">           <!-- Masukkan icon yang ingin dimuat ( sumber iconmonstr.com)-->
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 24h-24v-18h5v9l7-6v3.704l-1.828 1.529.642.767 3.367-2.817 3.819-3.183v3.713l-1.816 1.52.641.767 4.602-3.85-.003-.004 2.576-2.146v15zm-18-6h-2v3h2v-3zm10 0h-2v3h2v-3zm-5 0h-2v3h2v-3zm10 0h-2v3h2v-3zm-18-13h-1c.198-2.182 1.785-4 3.5-4 .246 0 .478.059.683.164.316-.687 1.011-1.164 1.817-1.164s1.501.477 1.817 1.164c.205-.105.437-.164.683-.164.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5c-.246 0-.478-.059-.683-.164-.316.687-1.011 1.164-1.817 1.164-2.345 0-3.722-2.951-5 0z"/></svg>
+                    </div>
+                    <h4>Boiler Operation</h4>
+                    <p>
+                         I have experience as Boiler Operator for 5 years on Coal Fired Powerplant 2x100 MW and have knowledge of operating systems, problem control and work procedures at Coal Fired Power Plants (CFPP)
+                    </p>
+                </div>
+
+                <!--Point 2-->
+                <div class="experience">
+                    <div class="experience-icon">           <!-- Masukkan icon yang ingin dimuat ( sumber iconmonstr.com)-->
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 24h-24v-2h1c2.996-4.904 3.945-12.985 4-16h7c.054 2.94 1.005 10.982 4 16h1.742l-.642-1.093c-1.195-2.145-1.948-4.546-2.501-6.924.268-1.659.385-3.106.401-3.983h5c.04 2.205.753 8.236 3 12h1v2zm-18.287-6h2l-1.167 3 4.167-5h-2l1.167-3-4.167 5zm12.924-12.915c.238-.522.759-.885 1.363-.885s1.125.363 1.363.885c.154-.08.328-.125.512-.125.621 0 1.125.511 1.125 1.14 0 .629-.504 1.14-1.125 1.14-.184 0-.358-.045-.512-.125-.238.522-.759.885-1.363.885s-1.125-.363-1.363-.885c-.154.08-.328.125-.512.125-.621 0-1.125-.511-1.125-1.14 0-.629.504-1.14 1.125-1.14.184 0 .358.045.512.125zm-10.637-.085c.198-2.182 1.785-4 3.5-4 .246 0 .478.059.683.164.316-.687 1.011-1.164 1.817-1.164s1.501.477 1.817 1.164c.205-.105.437-.164.683-.164.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5c-.246 0-.478-.059-.683-.164-.316.687-1.011 1.164-1.817 1.164-2.345 0-3.722-2.951-5 0h-1z"/></svg>
+                    </div>
+                    <h4>Ash Handling System</h4>
+                    <p>
+                        I have experience supervising, operating, maintaining and troubleshooting equipment on flyash transfer systems.
+                    </p>
+                </div>
+
+                <!--Point 3-->
+                <div class="experience">
+                    <div class="experience-icon">           <!-- Masukkan icon yang ingin dimuat ( sumber iconmonstr.com)-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.483 9.247l-3.503 1.899-10.788-6.304 3.474-1.962 10.817 6.367zm2.064-1.106l3.391-1.802-11.171-6.339-3.089 1.744 10.869 6.397zm-6.547 4.749l-11-6.429v10.988l11 6.265v-10.824zm11-4.845v10.83l-9 5.125v-11.132l9-4.823zm-5.959 9.388l-.349.199v1.713l.349-.195v-1.717zm.584-.333l-.343.195v1.717l.343-.195v-1.717zm.821-.468l-.343.196v1.717l.343-.196v-1.717zm.574-.326l-.343.195v1.717l.343-.195v-1.717zm.584-.333l-.349.199v1.717l.349-.199v-1.717zm.844-.481l-.343.195v1.717l.289-.165.054-.031v-1.716z"/></svg>
+                    </div>
+                    <h4>Compressor Air System</h4>
+                    <p>
+                        I have experience and knowledge of the work system, operating procedures, preventive maintenance and troubleshooting of the commpressor air system.
+                    </p>
+                </div>
+
+                <!--Point 4-->
+                <div class="experience">
+                    <div class="experience-icon">           <!-- Masukkan icon yang ingin dimuat ( sumber iconmonstr.com)-->
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M22 1h-2v1h4v5l-2 2v13h2v2h-24v-2h2v-9h12v-4l-2-2v-5h4v-1h-2v-1h8v1zm-13 18h-3v4h3v-4zm5 0h-4v4h4v-4zm4 0h-3v4h3v-4zm-2-15h-2v2l1 1h1v-3zm3 0h-2v3h2v-3zm3 0h-2v3h1l1-1v-2z"/></svg>
+                    </div>
+                    <h4>Auxiliary Boiler</h4>
+                    <p>
+                        I am experienced in the operation, maintenance and troubleshooting of auxiliary boiler systems.
+                    </p>
+                </div>
+
+                <!--Point 5-->
+                <div class="experience">
+                    <div class="experience-icon">           <!-- Masukkan icon yang ingin dimuat ( sumber iconmonstr.com)-->
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 24h-6v-17h6v17zm13 0h-11v-6h4v-4h7v10zm-15-4l-2 1v1l2-1v-1zm8 2v-2h-2v2h2zm5-2h-3v2h3v-2zm-13-3l-2 1v1l2-1v-1zm13-1h-3v2h3v-2zm-13-2l-2 1v1l2-1v-1zm0-3l-2 1v1l2-1v-1zm2-9h10l3 3v1h-3v3h3v3h-7v-3h3v-3h-16v3h-4v-7h5v-2h6v2zm-2 6l-2 1v1l2-1v-1z"/></svg>
+                    </div>
+                    <h4>Boiler Projects</h4>
+                    <p>
+                        I have experience participating in boiler construction projects for approximately 1 year.
+                    </p>
+                </div>
+
+                <!--Point 6-->
+                <div class="experience">
+                    <div class="experience-icon">           <!-- Masukkan icon yang ingin dimuat ( sumber iconmonstr.com)-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.997 18h-11.995l-.002-.623c0-1.259.1-1.986 1.588-2.33 1.684-.389 3.344-.736 2.545-2.209-2.366-4.363-.674-6.838 1.866-6.838 2.491 0 4.226 2.383 1.866 6.839-.775 1.464.826 1.812 2.545 2.209 1.49.344 1.589 1.072 1.589 2.333l-.002.619zm4.811-2.214c-1.29-.298-2.49-.559-1.909-1.657 1.769-3.342.469-5.129-1.4-5.129-1.265 0-2.248.817-2.248 2.324 0 3.903 2.268 1.77 2.246 6.676h4.501l.002-.463c0-.946-.074-1.493-1.192-1.751zm-22.806 2.214h4.501c-.021-4.906 2.246-2.772 2.246-6.676 0-1.507-.983-2.324-2.248-2.324-1.869 0-3.169 1.787-1.399 5.129.581 1.099-.619 1.359-1.909 1.657-1.119.258-1.193.805-1.193 1.751l.002.463z"/></svg>
+                    </div>
+                    <h4>Team Work</h4>
+                    <p>
+                        with my experience so far, I understand my field of work very well, so I have experience working independently and in a team.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Menu Experience -->
+
+    <!-- Portofolio -->
+    <section id="portofolio">                               <!-- membuat isi dari menu Experience-->
+        <div class="portofolio main-container">
+            <h3 class="pre-title">My Works</h3>
+            <h1 class="section-title">Featured Portofolios</h1>
+
+            <div class="grid-3">
+                <!-- Portofolio 1 -->
+                <div class="portofolio">
+                    <div class="portofolio-cover">
+                        <img src="./image/kalteng.jpg" alt="Kalteng">
+                    </div>
+
+                    <div class="portofolio-info">
+                        <div class="portofolio-title">
+                            <h4> PT. SKS Listrik Kalimantan </h4>
+                            <a href="https://dssa.co.id/id/siaranpers/detail/pt-dian-swastatika-sentosa-tbk-raih-tiga-penghargaan-dari-kemenaker-ri" target="_blank" class="portofolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portofolio-tags">
+                            <div>Energy</div>
+                        </div>
+                        <p>
+                            Kalselteng-1 power station is an operating power station of at least 200-megawatts (MW) in Desa Tumbang Kajuei, Gunung Mas Regency, Central Kalimantan, Indonesia.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- Portofolio 2 -->
+                <div class="portofolio">
+                    <div class="portofolio-cover">
+                        <img src="./image/karawang.jpg" alt="Karawang">
+                    </div>
+
+                    <div class="portofolio-info">
+                        <div class="portofolio-title">
+                            <h4> PT. PINDO DELI PULP AND PAPER MILLS </h4>
+                            <a href="https://pindodeli.co.id/in/home" target="_blank" class="portofolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portofolio-tags">
+                            <div>Energy</div>
+                            <div>Pulp and Paper</div>
+                        </div>
+                        <p>
+                            PT PINDO DELI PULP AND PAPER MILLS was established on January 31, 1975. It started as Pindo 1 on Dr. Sutami Street, Karawang. Pindo Deli joined APP in 1997.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Akhir Portofolio -->
+
+<!-- Skills & Education -->
+<section id="skills">
+    <div class="skills main-container">
+        <h3 class="pre-title"> Learning Path</h3>
+        <h3 class="section-title">Skills & Education</h3>
+
+        <div class="skills-grid">
+            <div class="skills-left">
+                <!-- Education 1-->
+                <div class="education">
+                    <div class="line">
+                        <div></div>
+                    </div>
+
+                    <div class="education-info">
+                        <h4 class="education-title"> SMK PGRI Banjarbaru</h4>
+                        <p> Teknik Alat Berat</p>
+                        <h4 class="education-years">2015 - 2018</h4>
+                    </div>
+                </div>
+                       <!-- Education 2-->
+                       <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+    
+                        <div class="education-info">
+                            <h4 class="education-title"> STT-PLN, Jakarta Barat</h4>
+                            <p> Diklat Vokasi ( Power Plant Personal Education )</p>
+                            <h4 class="education-years">2018 - 2019</h4>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="skills-right">
+                <p>
+                    I have experience in boiler projects and have knowledge of operating systems, problem control and work procedures at Coal Fired Power Plants (CFPP). able to analyze and determine actions in the operation of Boilers, and have knowledge of Compressor System units and handling of coal combustion ash (Flyash). I have a high spirit of work and skill, as well as a great desire to increase experience and knowledge, easy to socialize and can work individually or in teams.
+                </p>
+
+                <div class="skills-list">
+                    <ul>
+                        <li>Operation Boiler</li>
+                        <li>Operation Ash Handling</li>
+                        <li>Operation Auxiliary</li>
+                        <li>Operation Commpressor</li>
+                        <li>Operation ESP System</li>
+                    </ul>
+                    <ul>
+                        <li>Troubleshooting</li>
+                        <li>Hardworking</li>
+                        <li>Teamwork</li>
+                        <li>Conscientious</li>
+                        <li>Innovative</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Akhir Skills & Education -->
+
+    <!-- career card -->
+
+<section id="Gallery">
+      <div class="skills main-container">
+        <h3 class="pre-title"> Others</h3>
+        <h3 class="section-title">Gallery</h3>
+    
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="image/Foto1.jpeg" class="card-img-top" alt="gallery 1" />
+              <div class="card-body">
+                <p class="card-text">My Team (Unit #2) at IPP Kalteng-1 PT. Datang DSSP Power Indonesia (Sinarmas)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="image/Foto2.jpeg" class="card-img-top" alt="gallery 2" />
+              <div class="card-body">
+                <p class="card-text">Family gathering IPP Kalteng-1 PT. Datang DSSP Power Indonesia (Sinarmas)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="card">
+              <img src="image/Foto3.jpeg" class="card-img-top" alt="gallery 3" />
+              <div class="card-body">
+                <p class="card-text">Farewell photo of teammates</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"> 
+      </svg>
+    </section>
+
+    <!-- end career card -->
+
+
+
+<!-- Contact -->
+<section id="contact">
+    <div class="contact main-container">
+        <div class="contact-left">
+            <form class="contact-form" action="https://formspree.io/f/mzzrwlad" method="POST">                                        <!--email yang akan digunakan (sumber https://formspree.io/)-->
+                <div>
+                    <input type="text" placeholder="Name" name="name">
+                </div>
+                <div>
+                    <input type="email" placeholder="Email" name="email">
+                </div>
+                <div>
+                    <textarea name="message" id="message" placeholder="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button class="btn-submit">Send Massage</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-right">
+            <!--Address-->
+            <div class="contact-item">
+                <div class="contact-item-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"/></svg>
+                </div>
+                <div class="contact-item-detail">
+                    <h4>Address</h4>
+                    <p>Jl. Garuda, No.67, Kota Banjarbaru </p>
+                </div>
+            </div>
+             <!--Phone-->
+            <div class="contact-item">
+                <div class="contact-item-icon">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M16 22.621l-3.521-6.795c-.007.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.082-1.026-3.492-6.817-2.106 1.039c-1.622.845-2.298 2.627-2.289 4.843.027 6.902 6.711 18.013 12.212 18.117.575.011 1.137-.098 1.677-.345.121-.055 2.102-1.029 2.11-1.033zm4-5.621h-1v-13h1v13zm-2-2h-1v-9h1v9zm4-1h-1v-7h1v7zm-6-1h-1v-5h1v5zm-2-1h-1v-3h1v3zm10 0h-1v-3h1v3zm-12-1h-1v-1h1v1z"/></svg>
+                </div>
+                <div class="contact-item-detail">
+                    <h4>Phone</h4>
+                    <p>(+62) 82123624207</p>
+                </div>
+            </div>
+             <!--Email-->
+            <div class="contact-item">
+                <div class="contact-item-icon">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z"/></svg>
+                </div>
+                <div class="contact-item-detail">
+                    <h4>Email</h4>
+                    <p>arzgun1@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Akhir Contact -->
+
+<!-- Footer / Social media -->
+<footer>
+    <div class="footer-icons">
+        <a href="https://wa.me/6282123624207" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/_arifgun/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/arif-gunawan-42b41a1b4/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+        </a>
+       
+    </div>
+    <p>&#169; 2025 - Made by Arif Gunawan</p>
+</footer>
+
+<!-- Akhir Footer / Social media -->
+
+<script src="scripts/main.js"></script>
+
+    </body>
+</html>
